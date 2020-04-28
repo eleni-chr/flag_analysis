@@ -11,7 +11,7 @@ function flag_analysis(varargin)
 %One OPTIONAL input argument: float specifying how many entries to import at
 %a time. The entries are imported in blocks because attempting to import all 
 %the data from the SAM file at once may cause the RAM to run out. The
-%default value for this argument is 50000. If the RAM still runs out, 
+%default value for this argument is 40000. If the RAM still runs out, 
 %decrease this value.
 
 %OUTPUT ARGUMENTS:
